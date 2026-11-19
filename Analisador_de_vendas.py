@@ -1,7 +1,7 @@
 # Projeto: Analisador de Vendas
 
 """
-Seu programa deverá:
+ O programa deverá:
 1. Perguntar quantas vendas serão registradas.
 2. Receber o valor de cada venda.
 3. Armazenar os valores.
@@ -15,7 +15,6 @@ Seu programa deverá:
 # 1. Perguntar quantas vendas serão registradas
 vendas_registradas = int(input("Quantas vendas serão registradas? "))
 
-
 # 2. Criar uma lista para armazenar as vendas
 vendas = []
 
@@ -23,7 +22,6 @@ vendas = []
 for i in range (vendas_registradas):
     valor_venda = float(input(f"Digite o valor da venda {i + 1}: "))
     vendas.append(valor_venda)
-
 
 # 4. Calcular o faturamento total
 faturamento_total = sum(vendas)
